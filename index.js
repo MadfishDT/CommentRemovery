@@ -1,5 +1,8 @@
+#!/usr/bin/env node
+
 const removeComments = require('./lib');
 const fs = require('fs');
+
 (run = function() {
     console.log('start find and remove comment');
     let inputFilePath = process.argv[2];

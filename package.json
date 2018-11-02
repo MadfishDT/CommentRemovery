@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "javscript and typescript comment remove",
   "main": "lib.js",
+  "bin": {
+    "comment-removery": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
